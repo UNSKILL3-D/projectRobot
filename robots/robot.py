@@ -58,7 +58,7 @@ class GUI:
         scale_speed = Scale(from_=1, to=10, orient='horizontal', bg='#323232', bd='0', fg='#FFFFFF',
                             troughcolor="#707070", variable=self.fps[0], borderwidth=0, highlightthickness=0)
         scale_speed.grid(column=2, row=3, pady=(0, self.__margin))
-        if True:  # говнокод
+        if True:  
             b, a = math.modf(self.__canvas_scale)
             a = int(a)
             b = int(round(b, 2) * 100)
